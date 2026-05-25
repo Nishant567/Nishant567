@@ -3,7 +3,7 @@
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 
 <!-- ▓▓▓ HEADER BANNER — Self-hosted SVG, always loads ▓▓▓ -->
-<img width="100%" src="https://raw.githubusercontent.com/Nishant567/Nishant567/main/assets/header.svg" alt="Nishant Upadhyay — ASP.NET Core Developer"/>
+<img width="100%" src="/assets/header.svg" alt="Nishant Upadhyay — ASP.NET Core Developer"/>
 
 <!-- ▓▓▓ VISITOR + STATUS BADGES ▓▓▓ -->
 <div align="center">
@@ -261,4 +261,4 @@ public class NishantUpadhyay : DotNetDeveloper
 </div>
 
 <!-- ▓▓▓ FOOTER BANNER — Self-hosted SVG, always loads ▓▓▓ -->
-<img width="100%" src="https://raw.githubusercontent.com/Nishant567/Nishant567/main/assets/footer.svg" alt="footer"/>
+<img width="100%" src="/assets/footer.svg" alt="footer"/>
