@@ -3,7 +3,7 @@
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 
 <!-- ▓▓▓ HEADER BANNER — Self-hosted SVG, always loads ▓▓▓ -->
-<img width="100%" src="/assets/header.svg" alt="Nishant Upadhyay — ASP.NET Core Developer"/>
+<img width="100%" src="assets/header.svg" alt="Nishant Upadhyay — ASP.NET Core Developer"/>
 
 <!-- ▓▓▓ VISITOR + STATUS BADGES ▓▓▓ -->
 <div align="center">
