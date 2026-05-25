@@ -261,4 +261,4 @@ public class NishantUpadhyay : DotNetDeveloper
 </div>
 
 <!-- ▓▓▓ FOOTER BANNER — Self-hosted SVG, always loads ▓▓▓ -->
-<img width="100%" src="/assets/footer.svg" alt="footer"/>
+<img width="100%" src="assets/footer.svg" alt="footer"/>
