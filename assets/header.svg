@@ -1,1 +1,253 @@
 
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280">
+  <defs>
+    <!-- Deep AI background gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#020818"/>
+      <stop offset="40%"  stop-color="#050d2a"/>
+      <stop offset="100%" stop-color="#0a0f1e"/>
+    </linearGradient>
+    <!-- Glow gradient for name -->
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#38bdf8"/>
+      <stop offset="50%"  stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <!-- Node pulse glow -->
+    <radialGradient id="nodeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"  stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Center hero glow -->
+    <radialGradient id="heroGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"  stop-color="#1e3a5f" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#020818" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Scanline mask -->
+    <pattern id="scanlines" x="0" y="0" width="900" height="4" patternUnits="userSpaceOnUse">
+      <rect width="900" height="2" fill="rgba(56,189,248,0.03)"/>
+      <rect y="2" width="900" height="2" fill="transparent"/>
+    </pattern>
+    <!-- Text glow filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- ── BACKGROUND ── -->
+  <rect width="900" height="280" fill="url(#bg)"/>
+  <rect width="900" height="280" fill="url(#scanlines)" opacity="1"/>
+  <!-- Hero glow blob center -->
+  <ellipse cx="450" cy="140" rx="320" ry="160" fill="url(#heroGlow)"/>
+
+  <!-- ── NEURAL NET LINES (static, AI-aesthetic) ── -->
+  <!-- Layer connections - faint blue lines -->
+  <g stroke="#1e40af" stroke-width="0.5" opacity="0.35">
+    <line x1="60"  y1="50"  x2="180" y2="90"/>
+    <line x1="60"  y1="50"  x2="180" y2="140"/>
+    <line x1="60"  y1="140" x2="180" y2="90"/>
+    <line x1="60"  y1="140" x2="180" y2="190"/>
+    <line x1="60"  y1="230" x2="180" y2="140"/>
+    <line x1="60"  y1="230" x2="180" y2="190"/>
+    <line x1="180" y1="90"  x2="300" y2="70"/>
+    <line x1="180" y1="90"  x2="300" y2="130"/>
+    <line x1="180" y1="140" x2="300" y2="130"/>
+    <line x1="180" y1="140" x2="300" y2="190"/>
+    <line x1="180" y1="190" x2="300" y2="130"/>
+    <line x1="180" y1="190" x2="300" y2="230"/>
+    <!-- Right side mirror -->
+    <line x1="840" y1="50"  x2="720" y2="90"/>
+    <line x1="840" y1="50"  x2="720" y2="140"/>
+    <line x1="840" y1="140" x2="720" y2="90"/>
+    <line x1="840" y1="140" x2="720" y2="190"/>
+    <line x1="840" y1="230" x2="720" y2="140"/>
+    <line x1="840" y1="230" x2="720" y2="190"/>
+    <line x1="720" y1="90"  x2="600" y2="70"/>
+    <line x1="720" y1="90"  x2="600" y2="130"/>
+    <line x1="720" y1="140" x2="600" y2="130"/>
+    <line x1="720" y1="140" x2="600" y2="190"/>
+    <line x1="720" y1="190" x2="600" y2="130"/>
+    <line x1="720" y1="190" x2="600" y2="230"/>
+  </g>
+
+  <!-- ── ANIMATED TRAVELLING PULSES along lines ── -->
+  <!-- Pulse 1 -->
+  <circle r="3" fill="#38bdf8" opacity="0.9" filter="url(#glow)">
+    <animateMotion dur="3s" repeatCount="indefinite" begin="0s">
+      <mpath>
+        <path d="M60,50 L180,140 L300,70"/>
+      </mpath>
+    </animateMotion>
+    <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Pulse 2 -->
+  <circle r="3" fill="#818cf8" opacity="0.9" filter="url(#glow)">
+    <animateMotion dur="2.5s" repeatCount="indefinite" begin="0.8s">
+      <mpath>
+        <path d="M60,140 L180,90 L300,130"/>
+      </mpath>
+    </animateMotion>
+    <animate attributeName="opacity" values="0;1;0" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Pulse 3 right side -->
+  <circle r="3" fill="#06b6d4" opacity="0.9" filter="url(#glow)">
+    <animateMotion dur="3.2s" repeatCount="indefinite" begin="0.4s">
+      <mpath>
+        <path d="M840,50 L720,140 L600,70"/>
+      </mpath>
+    </animateMotion>
+    <animate attributeName="opacity" values="0;1;0" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Pulse 4 right side -->
+  <circle r="3" fill="#a78bfa" opacity="0.9" filter="url(#glow)">
+    <animateMotion dur="2.8s" repeatCount="indefinite" begin="1.2s">
+      <mpath>
+        <path d="M840,230 L720,90 L600,130"/>
+      </mpath>
+    </animateMotion>
+    <animate attributeName="opacity" values="0;1;0" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ── NEURAL NODES — LEFT ── -->
+  <g filter="url(#softGlow)">
+    <!-- Input layer -->
+    <circle cx="60"  cy="50"  r="5" fill="#1e3a5f" stroke="#38bdf8" stroke-width="1.2">
+      <animate attributeName="r" values="5;6.5;5" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="60"  cy="140" r="5" fill="#1e3a5f" stroke="#818cf8" stroke-width="1.2">
+      <animate attributeName="r" values="5;6.5;5" dur="3.1s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="1;0.3;1" dur="3.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="60"  cy="230" r="5" fill="#1e3a5f" stroke="#06b6d4" stroke-width="1.2">
+      <animate attributeName="r" values="5;6.5;5" dur="2.7s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="1;0.3;1" dur="2.7s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Hidden layer 1 -->
+    <circle cx="180" cy="90"  r="5" fill="#1e3a5f" stroke="#38bdf8" stroke-width="1.2">
+      <animate attributeName="r" values="5;7;5" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="180" cy="140" r="5" fill="#1e3a5f" stroke="#a78bfa" stroke-width="1.2">
+      <animate attributeName="r" values="5;7;5" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="180" cy="190" r="5" fill="#1e3a5f" stroke="#06b6d4" stroke-width="1.2">
+      <animate attributeName="r" values="5;7;5" dur="2.9s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Hidden layer 2 -->
+    <circle cx="300" cy="70"  r="5" fill="#1e3a5f" stroke="#818cf8" stroke-width="1.2">
+      <animate attributeName="r" values="5;6.5;5" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="300" cy="130" r="5" fill="#1e3a5f" stroke="#38bdf8" stroke-width="1.2">
+      <animate attributeName="r" values="5;6.5;5" dur="3.0s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="300" cy="190" r="5" fill="#1e3a5f" stroke="#06b6d4" stroke-width="1.2">
+      <animate attributeName="r" values="5;6.5;5" dur="2.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="300" cy="230" r="5" fill="#1e3a5f" stroke="#a78bfa" stroke-width="1.2">
+      <animate attributeName="r" values="5;6.5;5" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- ── NEURAL NODES — RIGHT (mirror) ── -->
+  <g filter="url(#softGlow)">
+    <circle cx="840" cy="50"  r="5" fill="#1e3a5f" stroke="#38bdf8" stroke-width="1.2">
+      <animate attributeName="r" values="5;6.5;5" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="840" cy="140" r="5" fill="#1e3a5f" stroke="#818cf8" stroke-width="1.2">
+      <animate attributeName="r" values="5;6.5;5" dur="3.1s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="1;0.3;1" dur="3.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="840" cy="230" r="5" fill="#1e3a5f" stroke="#06b6d4" stroke-width="1.2">
+      <animate attributeName="r" values="5;6.5;5" dur="2.7s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="1;0.3;1" dur="2.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="720" cy="90"  r="5" fill="#1e3a5f" stroke="#38bdf8" stroke-width="1.2">
+      <animate attributeName="r" values="5;7;5" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="720" cy="140" r="5" fill="#1e3a5f" stroke="#a78bfa" stroke-width="1.2">
+      <animate attributeName="r" values="5;7;5" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="720" cy="190" r="5" fill="#1e3a5f" stroke="#06b6d4" stroke-width="1.2">
+      <animate attributeName="r" values="5;7;5" dur="2.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="70"  r="5" fill="#1e3a5f" stroke="#818cf8" stroke-width="1.2">
+      <animate attributeName="r" values="5;6.5;5" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="130" r="5" fill="#1e3a5f" stroke="#38bdf8" stroke-width="1.2">
+      <animate attributeName="r" values="5;6.5;5" dur="3.0s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="190" r="5" fill="#1e3a5f" stroke="#06b6d4" stroke-width="1.2">
+      <animate attributeName="r" values="5;6.5;5" dur="2.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="230" r="5" fill="#1e3a5f" stroke="#a78bfa" stroke-width="1.2">
+      <animate attributeName="r" values="5;6.5;5" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- ── HORIZONTAL DIVIDER LINES (circuit board feel) ── -->
+  <line x1="320" y1="60"  x2="580" y2="60"  stroke="#1e3a5f" stroke-width="0.6" opacity="0.5"/>
+  <line x1="320" y1="220" x2="580" y2="220" stroke="#1e3a5f" stroke-width="0.6" opacity="0.5"/>
+
+  <!-- ── CENTRE HERO TEXT ── -->
+  <!-- Name glow shadow layer -->
+  <text x="450" y="128" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif"
+        font-size="46" font-weight="700" fill="#38bdf8" opacity="0.18" filter="url(#glow)">
+    Nishant Upadhyay
+  </text>
+  <!-- Name main with gradient fill via clip -->
+  <text x="450" y="125" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif"
+        font-size="46" font-weight="700" fill="url(#nameGrad)" filter="url(#softGlow)">
+    Nishant Upadhyay
+    <animate attributeName="opacity" values="0.92;1;0.92" dur="4s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="450" y="158" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif"
+        font-size="14.5" font-weight="400" fill="#94a3b8" letter-spacing="2">
+    ASP.NET CORE 8  ·  .NET DEVELOPER  ·  REST API  ·  MICROSERVICES  ·  AZURE
+  </text>
+
+  <!-- Animated underline under name -->
+  <rect x="250" y="135" height="1.5" fill="url(#nameGrad)" rx="1" opacity="0.7">
+    <animate attributeName="width" values="0;400;0" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="x"     values="450;250;450" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- ── BOTTOM BADGE ROW ── -->
+  <!-- Badge: Greater Noida -->
+  <rect x="285" y="188" width="140" height="26" rx="13" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <text x="355" y="205" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif"
+        font-size="11" fill="#94a3b8">📍 Greater Noida, IN</text>
+
+  <!-- Badge: 3+ Years -->
+  <rect x="436" y="188" width="110" height="26" rx="13" fill="#0f172a" stroke="#1e40af" stroke-width="1"/>
+  <text x="491" y="205" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif"
+        font-size="11" fill="#60a5fa">⚡ 3+ Yrs Backend</text>
+
+  <!-- Badge: Open to Work (pulsing green dot) -->
+  <rect x="557" y="188" width="115" height="26" rx="13" fill="#0f172a" stroke="#166534" stroke-width="1"/>
+  <circle cx="571" cy="201" r="4" fill="#22c55e">
+    <animate attributeName="r" values="4;5.5;4" dur="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.5;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="643" y="205" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif"
+        font-size="11" fill="#22c55e">Open to Work</text>
+
+  <!-- ── CORNER ACCENT BRACKETS ── -->
+  <g stroke="#1e40af" stroke-width="1.5" fill="none" opacity="0.6">
+    <polyline points="18,18 18,8 28,8"/>
+    <polyline points="872,18 872,8 862,8"/>
+    <polyline points="18,262 18,272 28,272"/>
+    <polyline points="872,262 872,272 862,272"/>
+  </g>
+
+  <!-- ── BOTTOM WAVE ── -->
+  <path d="M0,260 Q225,240 450,255 Q675,270 900,255 L900,280 L0,280 Z"
+        fill="#0d1117" opacity="0.9"/>
+</svg>
