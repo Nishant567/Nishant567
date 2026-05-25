@@ -2,8 +2,8 @@
 <!--          NISHANT UPADHYAY — GitHub Profile README (PREMIUM v3)            -->
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 
-<!-- ▓▓▓ HEADER BANNER ▓▓▓ -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Nishant%20Upadhyay&fontSize=52&fontColor=fff&animation=twinkling&fontAlignY=32&desc=ASP.NET%20Core%208%20%7C%20.NET%20Developer%20%7C%20REST%20API%20%26%20Microservices%20%7C%20Azure&descAlignY=55&descColor=aaaaff&descSize=16"/>
+<!-- ▓▓▓ HEADER BANNER — Self-hosted SVG, always loads ▓▓▓ -->
+<img width="100%" src="./assets/header.svg" alt="Nishant Upadhyay — ASP.NET Core Developer"/>
 
 <!-- ▓▓▓ VISITOR + STATUS BADGES ▓▓▓ -->
 <div align="center">
@@ -260,5 +260,5 @@ public class NishantUpadhyay : DotNetDeveloper
 
 </div>
 
-<!-- ▓▓▓ FOOTER BANNER ▓▓▓ -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=140&section=footer&text=Let's%20Build%20Something%20Great%20Together&fontSize=20&fontColor=aaaaff&animation=twinkling&fontAlignY=65"/>
+<!-- ▓▓▓ FOOTER BANNER — Self-hosted SVG, always loads ▓▓▓ -->
+<img width="100%" src="./assets/footer.svg" alt="footer"/>
