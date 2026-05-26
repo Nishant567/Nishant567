@@ -3,15 +3,18 @@
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 
 <!-- ▓▓▓ HEADER BANNER — Self-hosted SVG, always loads ▓▓▓ -->
-<img width="100%" src="assets/header.svg" alt="Nishant Upadhyay — ASP.NET Core Developer"/>
+<img width="100%" src="./assets/header.svg" alt="Nishant Upadhyay — ASP.NET Core Developer"/>
 
 <!-- ▓▓▓ VISITOR + STATUS BADGES ▓▓▓ -->
 <div align="center">
 <br/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Nishant567&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS)
+&nbsp;
 ![Status](https://img.shields.io/badge/STATUS-OPEN%20TO%20WORK-brightgreen?style=for-the-badge&logo=statuspage&logoColor=white)
+&nbsp;
 ![Years](https://img.shields.io/badge/EXPERIENCE-3%2B%20YEARS-blue?style=for-the-badge&logo=dotnet&logoColor=white)
+&nbsp;
 ![Notice](https://img.shields.io/badge/NOTICE%20PERIOD-30%20DAYS-orange?style=for-the-badge&logo=clockify&logoColor=white)
 
 </div>
@@ -258,4 +261,4 @@ public class NishantUpadhyay : DotNetDeveloper
 </div>
 
 <!-- ▓▓▓ FOOTER BANNER — Self-hosted SVG, always loads ▓▓▓ -->
-<img width="100%" src="assets/footer.svg" alt="footer"/>
+<img width="100%" src="./assets/footer.svg" alt="footer"/>
