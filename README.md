@@ -1,43 +1,15 @@
-<!-- ═══════════════════════════════════════════════════════════════════════════ -->
-<!--          NISHANT UPADHYAY — GitHub Profile README (PREMIUM v3)            -->
-<!-- ═══════════════════════════════════════════════════════════════════════════ -->
-
-<!-- ▓▓▓ HEADER BANNER — Self-hosted SVG, always loads ▓▓▓ -->
-<img width="100%" src="./assets/header.svg" alt="Nishant Upadhyay — ASP.NET Core Developer"/>
-
-<!-- ▓▓▓ VISITOR + STATUS BADGES ▓▓▓ -->
 <div align="center">
+
+<!-- VISITOR COUNTER -->
+![Visitor Count](https://komarev.com/ghpvc/?username=Nishant567&color=0891b2&style=for-the-badge&label=PROFILE+VIEWS)
+
+<!-- TYPING ANIMATION -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=800&color=0891B2&center=true&vCenter=true&multiline=false&width=700&height=60&lines=Hi+there%2C+I'm+Nishant+Upadhyay+%F0%9F%91%8B;ASP.NET+Core+%7C+.NET+Developer;3%2B+Years+Building+Scalable+Systems;Passionate+About+Clean+Architecture;REST+APIs+%7C+Microservices+%7C+Azure+Cloud)](https://git.io/typing-svg)
+
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=Nishant567&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS)
-&nbsp;
-![Status](https://img.shields.io/badge/STATUS-OPEN%20TO%20WORK-brightgreen?style=for-the-badge&logo=statuspage&logoColor=white)
-&nbsp;
-![Years](https://img.shields.io/badge/EXPERIENCE-3%2B%20YEARS-blue?style=for-the-badge&logo=dotnet&logoColor=white)
-&nbsp;
-![Notice](https://img.shields.io/badge/NOTICE%20PERIOD-30%20DAYS-orange?style=for-the-badge&logo=clockify&logoColor=white)
-
-</div>
-
-<!-- ▓▓▓ TYPING ANIMATION ▓▓▓ -->
-<div align="center">
-<br/>
-
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=7B68EE&center=true&vCenter=true&multiline=false&repeat=true&width=700&height=60&lines=🚀+Building+Production-Grade+REST+APIs;⚡+60%25+Faster+SQL+Queries+—+Real+Impact;☁️+Azure+DevOps+%7C+CI%2FCD+%7C+99.9%25+Uptime;🤖+Google+Gemini+AI+Integration+%7C+5000%2B+req%2Fday;🏆+ASP.NET+Core+8+%7C+EF+Core+8+%7C+SQL+Server+2022)](https://github.com/Nishant567)
-
-</div>
-
-<!-- ▓▓▓ CONTACT BADGES ▓▓▓ -->
-<div align="center">
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-nishantupadhyay25-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nishantupadhyay25)
-&nbsp;
-[![Gmail](https://img.shields.io/badge/Gmail-nishantupadhya567%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nishantupadhya567@gmail.com)
-&nbsp;
-[![Phone](https://img.shields.io/badge/Phone-%2B91--8510003531-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:+918510003531)
-
-<br/><br/>
+<!-- BANNER DIVIDER -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%" />
 
 </div>
 
@@ -46,219 +18,158 @@
 ## 🧑‍💻 About Me
 
 ```csharp
-public class NishantUpadhyay : DotNetDeveloper
+var nishant = new Developer
 {
-    public string Name       => "Nishant Upadhyay";
-    public string Role       => "ASP.NET Core 8 Developer";
-    public string Company    => "Tenet Health Edutech Pvt. Ltd., Noida";
-    public int    Experience => 3; // years
-    public string Location   => "Greater Noida, India";
-
-    public string[] CurrentlyBuilding => new[] {
-        "AI Learning Platform — 8 Microservices on Azure",
-        "5,000+ daily requests with Redis caching"
-    };
-
-    public string BiggestWin =>
-        "SQL query: 5s → 2s (60% faster) via indexing + execution plan — zero infra cost";
-
-    public string[] Certifications => new[] {
-        "Microsoft Azure Fundamentals (AZ-900)",
-        "ASP.NET Core 8 Web Development",
-        "SQL Server 2022"
-    };
-
-    public string Availability => "Open to .NET Roles — Remote / Hybrid / Onsite | Notice: 30 Days";
-}
+    Name        = "Nishant Upadhyay",
+    Location    = "Greater Noida, India 🇮🇳",
+    Role        = "ASP.NET Core & .NET Developer",
+    Experience  = "3+ Years",
+    CurrentWork = "Building AI-integrated microservices on Azure",
+    Education   = new[] { "MCA – Lovely Professional University", "BCA – Radha Govind College" },
+    Certifications = new[] { "Microsoft Azure Fundamentals (AZ-900)", "ASP.NET Core 8", "SQL Server 2022" }
+};
 ```
+
+- 🔭 **Currently working on:** AI Learning Platform with ASP.NET Core 8 Microservices & Azure
+- 🌩️ **Cloud focus:** Azure App Services, Azure DevOps, CI/CD Pipelines — targeting zero-downtime deployments
+- 🧠 **Deep-diving into:** Redis caching, Microservices patterns, Clean Architecture, and Domain-Driven Design
+- 📚 **Learning goal:** Master distributed systems and Kubernetes orchestration in the Azure ecosystem
+- ⚡ **Fun fact:** I once reduced a SQL Server dashboard load time from 8 seconds to 3 seconds — just by rethinking index strategy. Query optimization is my superpower.
 
 ---
 
 ## 🛠️ Tech Stack
 
-### 🔷 Languages
+### 💻 Languages & Frameworks
+
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET_8-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core_8-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Entity Framework Core](https://img.shields.io/badge/EF_Core_8-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![LINQ](https://img.shields.io/badge/LINQ-239120?style=for-the-badge&logo=csharp&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-### ⚙️ Frameworks & Libraries
-![ASP.NET Core 8](https://img.shields.io/badge/ASP.NET%20Core%208-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![.NET 8](https://img.shields.io/badge/.NET%208-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![EF Core 8](https://img.shields.io/badge/EF%20Core%208-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![Dapper](https://img.shields.io/badge/Dapper-003B57?style=for-the-badge&logo=nuget&logoColor=white)
-![LINQ](https://img.shields.io/badge/LINQ-68217A?style=for-the-badge&logo=dotnet&logoColor=white)
-![MVC 5](https://img.shields.io/badge/MVC%205-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![Web API](https://img.shields.io/badge/Web%20API-0078D4?style=for-the-badge&logo=dotnet&logoColor=white)
-![Bootstrap 5](https://img.shields.io/badge/Bootstrap%205-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap_5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
-![AJAX](https://img.shields.io/badge/AJAX-0378D4?style=for-the-badge&logo=javascript&logoColor=white)
 
-### 🧠 Architecture & Concepts
-![REST API](https://img.shields.io/badge/REST%20API-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Microservices](https://img.shields.io/badge/Microservices-FF6F00?style=for-the-badge&logo=apachekafka&logoColor=white)
-![Dependency Injection](https://img.shields.io/badge/Dependency%20Injection-7C3AED?style=for-the-badge&logo=nuget&logoColor=white)
-![OOP](https://img.shields.io/badge/OOP-239120?style=for-the-badge&logo=csharp&logoColor=white)
-![MVC Pattern](https://img.shields.io/badge/MVC%20Pattern-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+### 🏗️ Architecture & Tools
+
+![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Microservices](https://img.shields.io/badge/Microservices-0891b2?style=for-the-badge&logo=apache&logoColor=white)
+![Clean Architecture](https://img.shields.io/badge/Clean_Architecture-0891b2?style=for-the-badge&logo=dotnet&logoColor=white)
+![MVC](https://img.shields.io/badge/ASP.NET_MVC-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Dependency Injection](https://img.shields.io/badge/Dependency_Injection-239120?style=for-the-badge&logo=csharp&logoColor=white)
 ![xUnit](https://img.shields.io/badge/xUnit-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![Agile Scrum](https://img.shields.io/badge/Agile%20Scrum-0052CC?style=for-the-badge&logo=jira&logoColor=white)
-
-### 🗄️ Databases
-![SQL Server 2022](https://img.shields.io/badge/SQL%20Server%202022-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-![Stored Procedures](https://img.shields.io/badge/Stored%20Procedures-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-![Query Optimization](https://img.shields.io/badge/Query%20Optimization-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-![Indexing](https://img.shields.io/badge/Indexing%20%26%20Exec%20Plans-AA1111?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis%20Caching-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-
-### ☁️ Cloud & DevOps
-![Azure App Services](https://img.shields.io/badge/Azure%20App%20Services-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Azure Storage](https://img.shields.io/badge/Azure%20Storage-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Azure DevOps](https://img.shields.io/badge/Azure%20DevOps-0078D4?style=for-the-badge&logo=azuredevops&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI%2FCD%20Pipelines-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![IIS](https://img.shields.io/badge/IIS%20Server-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
-
-### 🔧 Tools
-![Visual Studio 2022](https://img.shields.io/badge/Visual%20Studio%202022-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
+![Visual Studio](https://img.shields.io/badge/Visual_Studio_2022-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white)
+![Agile](https://img.shields.io/badge/Agile_Scrum-009FDA?style=for-the-badge&logo=jira&logoColor=white)
+
+### 🗄️ Databases & Cloud
+
+![SQL Server](https://img.shields.io/badge/SQL_Server_2022-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=for-the-badge&logo=azure-devops&logoColor=white)
+![IIS](https://img.shields.io/badge/IIS_Server-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Stats & Metrics
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Nishant567&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" height="180"/>
-&nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nishant567&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" height="180"/>
+<!-- GITHUB STATS CARD -->
+<img src="https://github-readme-stats.vercel.app/api?username=Nishant567&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&card_width=500" alt="Nishant's GitHub Stats" height="200"/>
+
+<!-- TOP LANGUAGES CARD -->
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nishant567&theme=tokyonight&hide_border=true&layout=compact&langs_count=8&card_width=420" alt="Top Languages" height="200"/>
 
 </div>
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=Nishant567&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" width="700"/>
+<!-- GITHUB STREAK STATS -->
+<img src="https://streak-stats.demolab.com?user=Nishant567&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=700" alt="GitHub Streak" />
 
 </div>
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nishant567&bg_color=1a1b27&color=7B68EE&line=0078d4&point=00bcf2&area=true&hide_border=true&custom_title=Contribution%20Graph" width="100%"/>
+<!-- ACTIVITY GRAPH -->
+[![Nishant's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Nishant567&theme=tokyo-night&hide_border=true&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 
 ---
 
-## 🚀 Professional Projects
+## 🚀 Currently Learning / Roadmap
 
-> 💼 *Production systems built at Tenet Health Edutech Pvt. Ltd.*
+> My focused path through the modern .NET & cloud ecosystem:
 
-<table>
-<tr>
-<td width="50%" valign="top">
+```
+🗺️  .NET DEVELOPER GROWTH ROADMAP — 2025/2026
+```
 
-### 🎓 Cliniminds LMS
-**ASP.NET Core 8 · EF Core · SQL Server 2022 · Azure · Identity**
+- [x] ✅ ASP.NET Core 8 — REST APIs, Middleware, Filters, Authentication
+- [x] ✅ Entity Framework Core 8 — Code First, Migrations, Query Optimization
+- [x] ✅ SQL Server 2022 — Stored Procedures, Indexing, Execution Plans
+- [x] ✅ Azure App Services + Azure DevOps CI/CD Pipelines
+- [x] ✅ Microservices with ASP.NET Core 8 + EF Core 8
+- [x] ✅ Redis Caching for performance optimization
+- [ ] 🔄 **In Progress:** Clean Architecture & Domain-Driven Design (DDD)
+- [ ] 🔄 **In Progress:** .NET 9 features — Native AOT, Minimal APIs deep-dive
+- [ ] 📌 **Next up:** Kubernetes (AKS on Azure) + Helm Charts
+- [ ] 📌 **Next up:** Blazor WebAssembly — interactive web UIs in C#
+- [ ] 📌 **Planned:** gRPC + Event-Driven Architecture (Azure Service Bus / RabbitMQ)
+- [ ] 📌 **Planned:** Advanced Unit & Integration Testing with xUnit + Testcontainers
+- [ ] 📌 **Planned:** OpenTelemetry — distributed tracing & observability
 
-✅ **1,000+ users** — zero-downtime Azure deployments  
-✅ Certificate generation — **80% less manual work**  
-✅ GST fee module — **₹50 Lakh+** transactions/year  
-✅ Dashboard: **8s → 3s** (60% faster)  
-✅ Role-based access: Students · Trainers · Admins  
-✅ **50+ stored procedures** · 10,000+ daily transactions  
+---
 
-</td>
-<td width="50%" valign="top">
+## 🏆 Highlights & Achievements
 
-### 🤖 Interview Prep Platform
-**ASP.NET Core 8 · SQL Server · Azure DevOps · Google Gemini AI**
-
-✅ **10+ REST APIs** for mock tests + real-time scoring  
-✅ **500+ users** with live analytics  
-✅ Gemini AI feedback in **< 2 seconds** (90% of users)  
-✅ Azure DevOps CI/CD — **99.9% uptime**  
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 📚 AI Learning Platform
-**ASP.NET Core 8 · Microservices · EF Core 8 · Redis · Azure**
-
-✅ **8 microservices** with DI — 5,000+ daily requests  
-✅ **45% faster** responses via Redis + SQL tuning  
-✅ Swagger + Postman — **95% endpoint coverage**  
-
-</td>
-<td width="50%" valign="top">
-
-### 📈 By The Numbers
-
-| Metric | Value |
+| 🎯 Achievement | 📈 Impact |
 |---|---|
-| REST APIs in production | **15+** |
-| Stored procedures written | **50+** |
-| Agile sprints shipped | **12** |
-| Features delivered | **25+** |
-| Ahead of schedule | **20%** |
-| SQL improvement | **5s → 2s** |
-| Dashboard improvement | **8s → 3s** |
-
-</td>
-</tr>
-</table>
+| Optimized SQL Server queries | ⚡ 60% faster — 5s → 2s execution time |
+| Deployed LMS to Azure | 🟢 99.9% uptime, zero-downtime releases |
+| Certificate automation workflow | 🤖 80% manual workload reduction |
+| Built GST fee management module | 💰 INR 50L+ transactions processed annually |
+| Integrated Google Gemini AI API | 🧠 Real-time feedback for 500+ users in < 2s |
+| Designed 8 microservices (AI Platform) | 🔩 5000+ daily requests handled |
 
 ---
 
-## 🏅 Certifications
+## 🤝 Connect With Me
 
 <div align="center">
 
-![AZ-900](https://img.shields.io/badge/Microsoft%20AZ--900-Azure%20Fundamentals-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-&nbsp;
-![ASP.NET Core 8](https://img.shields.io/badge/ASP.NET%20Core%208-Web%20Development-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-&nbsp;
-![SQL Server](https://img.shields.io/badge/SQL%20Server%202022-Certified-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Nishant_Upadhyay-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nishantupadhyay25)
+[![Email](https://img.shields.io/badge/Email-nishantupadhya567@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nishantupadhya567@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-your--github--username-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nishant567)
+[![Blog / Medium](https://img.shields.io/badge/Blog-your--blog--url-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@your-medium-username)
 
 </div>
 
 ---
 
-## 🎓 Education
-
-| Degree | Institution | Year |
-|---|---|---|
-| 🎓 **MCA** — Master of Computer Applications | Lovely Professional University | 2023 – 2025 |
-| 🎓 **BCA** — Bachelor of Computer Applications | Radha Govind College of Education | 2018 – 2021 |
-
----
-
-## 🤝 Let's Connect
-
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nishantupadhyay25)
-&nbsp;
-[![Gmail](https://img.shields.io/badge/Gmail-Mail%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nishantupadhya567@gmail.com)
-&nbsp;
-[![Phone](https://img.shields.io/badge/WhatsApp-%2B91--8510003531-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:+918510003531)
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%" />
 
-<br/>
+### 💬 Philosophy
 
-![Hiring](https://img.shields.io/badge/💼%20Available%20for%20Hiring-30%20Day%20Notice%20Period-0078D4?style=for-the-badge)
-&nbsp;
-![Remote](https://img.shields.io/badge/Open%20To-Remote%20%7C%20Hybrid%20%7C%20Onsite-7B68EE?style=for-the-badge&logo=dotnet&logoColor=white)
+*"Write code that is easy to delete, not easy to extend."*
 
-<br/><br/>
-<i>💬 Always open to exciting .NET opportunities and backend engineering challenges!</i>
-<br/><br/>
+**Open to .NET Core & ASP.NET Core Developer roles across India — 30-day notice period**
+
+![Wave](https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf/bottom_header.svg)
 
 </div>
-
-<!-- ▓▓▓ FOOTER BANNER — Self-hosted SVG, always loads ▓▓▓ -->
-<img width="100%" src="./assets/footer.svg" alt="footer"/>
