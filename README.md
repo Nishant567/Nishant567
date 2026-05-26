@@ -154,8 +154,6 @@ var nishant = new Developer
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Nishant_Upadhyay-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nishantupadhyay25)
 [![Email](https://img.shields.io/badge/Email-nishantupadhya567@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nishantupadhya567@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-your--github--username-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nishant567)
-[![Blog / Medium](https://img.shields.io/badge/Blog-your--blog--url-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@your-medium-username)
-
 </div>
 
 ---
